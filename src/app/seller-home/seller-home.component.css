@@ -1,0 +1,19 @@
+table {
+    text-align: left;
+    color: blueviolet;
+    border-collapse: collapse;
+}
+
+table td , table th
+{
+border: 1px solid blueviolet;
+height:50px
+}
+
+table tr td img
+{
+    height: 50px;
+}
+.color-green{
+    color:green;
+}

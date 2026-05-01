@@ -1,0 +1,19 @@
+<p>seller-update-product works!</p>
+<div class="signup" >
+    <h2>Update product</h2>
+
+    <p class="color-green" *ngIf="updateProductMessage">{{updateProductMessage}}</p>
+    <form #updateproduct="ngForm" (ngSubmit)="Updateproduct(updateproduct.value)">
+        <input type="hidden" ngModel="{{product?.id}}" name="id">
+        <input class="form-input" name="name" type="text" placeholder="enter product name" ngModel="{{product?.name}}">
+        <input class="form-input" name="price" type="text" placeholder="enter product price" ngModel="{{product?.price}}">
+        <input class="form-input" name="color" type="text" placeholder="enter product color" ngModel="{{product?.color}}">
+        <input class="form-input" name="category" type="text" placeholder="enter product category" ngModel="{{product?.category}}">
+        <textarea class="form-input" name="description" placeholder="enter product description" ngModel="{{product?.description}}"></textarea>
+        <input class="form-input" name="imageurl" type="text" placeholder="enter product imageurl" ngModel="{{product?.imageurl}}">
+          <input class="form-button" type="submit" value="Update product">
+    </form>
+
+
+
+</div>

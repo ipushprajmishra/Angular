@@ -1,0 +1,22 @@
+{
+  "seller": [
+    {
+      "name": "pushpraj",
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "id": "7DhGyjUHoGM"
+    }
+  ],
+  "products": [
+    {
+      "id": "tdyDhXYdJmw",
+      "name": "socks",
+      "price": "40",
+      "color": "green",
+      "category": "Cloth",
+      "description": "good socks",
+      "imageurl": "https://m.media-amazon.com/images/I/610TC6+hu5L._SX679_.jpg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
