@@ -9,13 +9,96 @@
   ],
   "products": [
     {
-      "id": "tdyDhXYdJmw",
-      "name": "socks",
-      "price": "40",
-      "color": "green",
-      "category": "Cloth",
-      "description": "good socks",
-      "imageurl": "https://m.media-amazon.com/images/I/610TC6+hu5L._SX679_.jpg"
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "imageurl": "https://5.imimg.com/data5/SELLER/Default/2024/10/459298353/GC/TS/QH/112050460/luxor-940-drawing-colour-ink-bottle-of-5ml-ink-purple-pack-of-10-1000x1000.jpg",
+      "id": "1"
+    },
+    {
+      "name": "I phone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "imageurl": "https://5.imimg.com/data5/SELLER/Default/2024/10/459298353/GC/TS/QH/112050460/luxor-940-drawing-colour-ink-bottle-of-5ml-ink-purple-pack-of-10-1000x1000.jpg",
+      "id": "2"
+    },
+    {
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "imageurl": "https://5.imimg.com/data5/SELLER/Default/2024/10/459298353/GC/TS/QH/112050460/luxor-940-drawing-colour-ink-bottle-of-5ml-ink-purple-pack-of-10-1000x1000.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "Black",
+      "description": "Best shoes for Running",
+      "imageurl": "https://5.imimg.com/data5/SELLER/Default/2024/10/459298353/GC/TS/QH/112050460/luxor-940-drawing-colour-ink-bottle-of-5ml-ink-purple-pack-of-10-1000x1000.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "imageurl": "https://5.imimg.com/data5/SELLER/Default/2024/10/459298353/GC/TS/QH/112050460/luxor-940-drawing-colour-ink-bottle-of-5ml-ink-purple-pack-of-10-1000x1000.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise smart watch for man and women both",
+      "imageurl": "https://5.imimg.com/data5/SELLER/Default/2024/10/459298353/GC/TS/QH/112050460/luxor-940-drawing-colour-ink-bottle-of-5ml-ink-purple-pack-of-10-1000x1000.jpg",
+      "id": "7"
+    }
+  ],
+  "users": [
+    {
+      "name": "ipushpraj",
+      "email": "pushpraj@gmail.com",
+      "password": "abc",
+      "id": "a1zTKGh26qY"
+    },
+    {
+      "name": "abc@gmail.com",
+      "email": "pushparajsonu1@gmail.com",
+      "password": "abc",
+      "id": "F1MWJr7nrME"
+    },
+    {
+      "name": "abc@gmail.com",
+      "email": "pushparajsonu1@gmail.com",
+      "password": "abc",
+      "id": "XLkf5T4bnxI"
+    },
+    {
+      "name": "abc@gmail.com",
+      "email": "pushparajsonu1@gmail.com",
+      "password": "abc",
+      "id": "3MVsiJemczU"
+    },
+    {
+      "name": "abc@gmail.com",
+      "email": "pushparajsonu1@gmail.com",
+      "password": "abc",
+      "id": "zlYzvkw3DuU"
+    },
+    {
+      "name": "abc@gmail.com",
+      "email": "pushparajsonu1@gmail.com",
+      "password": "abc",
+      "id": "InkXU0liI20"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

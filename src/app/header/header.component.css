@@ -1,36 +1,47 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav h1 {
-    color: blueviolet;
-    margin: 0;
-    font-size: 40px;
+  color: blueviolet;
+  margin: 0;
+  font-size: 40px;
 }
 
-.nav ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav ul  {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav ul li {
-    padding-left: 15px;
-    padding-top: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .nav ul li a {
-    text-decoration: none;
-    color: blueviolet;
+  text-decoration: none;
+  color: blueviolet;
+  cursor: pointer;
 }
 
-.nav .nav-search input{
-    color: blueviolet;
-    border-color: aquamarine;
+.nav .nav-search input {
+  color: blueviolet;
+  border-color: aquamarine;
 }
-.nav .nav-search button{
-        color: blueviolet;
-    border-color: aquamarine;
+.nav .nav-search button {
+  color: blueviolet;
+  border-color: aquamarine;
+}
+
+.search-products {
+  position: absolute;
+  display: list-item;
+  z-index: 10;
+  background-color: white;
+  width: 300px;
+  border: 1px solid #ddd;
+  top: 300p;
 }

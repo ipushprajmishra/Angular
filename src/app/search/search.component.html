@@ -1,0 +1,17 @@
+<p>search works!</p>
+
+<div class="row search-item" *ngFor="let data of searchedProduct">
+  <div class="col-sm-3">
+    <a routerLink="/details/{{data.id}}">
+    <img
+      [src]="data.imageurl"
+      alt="this is alternative text instead of image."
+    /></a>
+  </div>
+  <div class="col-sm-8 details">
+    <h6>Product Name : {{data.name}}</h6>
+    <p><b>Price: {{data.price }}</b></p>
+    <p><span>color: {{data.color}}</span><span>Category: {{data.category}}</span></p>
+    <p>A product search ui</p>
+  </div>
+</div>
